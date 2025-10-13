@@ -2,7 +2,7 @@
 
 **Also available in**: [English](README.md) | [Français](README.fr.md)
 
-Version: 1.1 | Date: October 12, 2025 | Author: Gabriel Jossic
+Version: 2.0 | Date: October 12, 2025 | Author: Gabriel Jossic
 
 ## **Overview & Core Principles**
 
