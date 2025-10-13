@@ -1,5 +1,7 @@
 # PrismIA - Méthodologie de Recrutement Assistée par IA
 
+> 🌍 **Languages**: [English](README.md) | [Français](README.fr.md)
+
 > Un cadre expérimental explorant comment l'IA peut réduire les biais et améliorer l'efficacité des flux de travail d'acquisition de talents.
 
 ## À Propos de ce Projet
