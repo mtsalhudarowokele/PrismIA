@@ -1,4 +1,4 @@
-**Version:** 1.1 | **Date:** October 12, 2025 | **Author:** Gabriel Jossic
+License: AGPLv3 (e.g., "AGPLv3: If you deploy this software as a service, you must make public the changes and modified source code.") Version: 1.1 | Date: October 12, 2025 | Author: Gabriel Jossic
 
 ## **Overview & Core Principles**
 
