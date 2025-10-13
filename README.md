@@ -1,5 +1,7 @@
 # PrismIA - AI-Assisted Recruitment Methodology
 
+> 🌍 **Languages**: [English](README.md) | [Français](README.fr.md)
+
 > An experimental framework exploring how AI can reduce bias and improve efficiency in talent acquisition workflows.
 
 ## About This Project
