@@ -1,4 +1,4 @@
-**Version:** 1.0 | **Date:** October 12, 2025 | **Author:** Gabriel Jossic
+**Version:** 1.1 | **Date:** October 12, 2025 | **Author:** Gabriel Jossic
 
 ## **Overview & Core Principles**
 
