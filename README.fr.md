@@ -1,5 +1,7 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
 
+**Disponible en plusieurs langues**: [English](README.md) | [Français](README.fr.md)
+
 Version : 1.1 | Date : 12 octobre 2025 | Auteur : Gabriel Jossic
 
 ## **Aperçu et principes fondamentaux**
