@@ -4,7 +4,7 @@
 
 ## About This Project
 
-As a junior recruiter learning AI-powered hiring tools, I designed this methodology to understand how large language models (GPT-4, Claude, Qwen, DeepSeek) could systematically assist with recruitment decisions while minimizing unconscious bias.
+As a junior recruiter learning AI-powered hiring tools, I designed this methodology to understand how large language models (Claude, GLM, GPT) could systematically assist with recruitment decisions while minimizing unconscious bias.
 
 **What this is:** A collection of 8 system prompts implementing a structured, evidence-based approach to candidate evaluation.
 
